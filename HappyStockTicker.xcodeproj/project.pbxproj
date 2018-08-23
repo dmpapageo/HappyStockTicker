@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D03C4EF681288D247265C93 /* Pods_HappyStockTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408C87A2E706FC36677052BA /* Pods_HappyStockTicker.framework */; };
+		E9E1A4EC21274EFA003E6B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1A4EB21274EFA003E6B4D /* AppDelegate.swift */; };
+		E9E1A4F121274EFA003E6B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E1A4EF21274EFA003E6B4D /* Main.storyboard */; };
+		E9E1A4F321274EFA003E6B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E1A4F221274EFA003E6B4D /* Assets.xcassets */; };
+		E9E1A4F621274EFA003E6B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E1A4F421274EFA003E6B4D /* LaunchScreen.storyboard */; };
+		E9E1A4FE21274F51003E6B4D /* StockListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1A4FD21274F51003E6B4D /* StockListScreen.swift */; };
+		E9E1A500212B9259003E6B4D /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1A4FF212B9259003E6B4D /* StockCell.swift */; };
+		E9E1A502212C0E05003E6B4D /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1A501212C0E05003E6B4D /* Stock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		408C87A2E706FC36677052BA /* Pods_HappyStockTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyStockTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DEFE6A59B1697CE6A47EFD /* Pods-HappyStockTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStockTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStockTicker/Pods-HappyStockTicker.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E1A4E821274EFA003E6B4D /* HappyStockTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyStockTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E1A4EB21274EFA003E6B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9E1A4F021274EFA003E6B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9E1A4F221274EFA003E6B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9E1A4F521274EFA003E6B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9E1A4F721274EFA003E6B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E1A4FD21274F51003E6B4D /* StockListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListScreen.swift; sourceTree = "<group>"; };
+		E9E1A4FF212B9259003E6B4D /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		E9E1A501212C0E05003E6B4D /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		FF268CCBBAC3BDC3667E6BB9 /* Pods-HappyStockTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStockTicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStockTicker/Pods-HappyStockTicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9E1A4E521274EFA003E6B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D03C4EF681288D247265C93 /* Pods_HappyStockTicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85509F1146C090DF227324E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83DEFE6A59B1697CE6A47EFD /* Pods-HappyStockTicker.debug.xcconfig */,
+				FF268CCBBAC3BDC3667E6BB9 /* Pods-HappyStockTicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5567278E76DAED4845D265D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				408C87A2E706FC36677052BA /* Pods_HappyStockTicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9E1A4DF21274EFA003E6B4D = {
+			isa = PBXGroup;
+			children = (
+				E9E1A4EA21274EFA003E6B4D /* HappyStockTicker */,
+				E9E1A4E921274EFA003E6B4D /* Products */,
+				85509F1146C090DF227324E8 /* Pods */,
+				C5567278E76DAED4845D265D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9E1A4E921274EFA003E6B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1A4E821274EFA003E6B4D /* HappyStockTicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E1A4EA21274EFA003E6B4D /* HappyStockTicker */ = {
+			isa = PBXGroup;
+			children = (
+				E9E1A4EB21274EFA003E6B4D /* AppDelegate.swift */,
+				E9E1A4FD21274F51003E6B4D /* StockListScreen.swift */,
+				E9E1A4FF212B9259003E6B4D /* StockCell.swift */,
+				E9E1A501212C0E05003E6B4D /* Stock.swift */,
+				E9E1A4EF21274EFA003E6B4D /* Main.storyboard */,
+				E9E1A4F221274EFA003E6B4D /* Assets.xcassets */,
+				E9E1A4F421274EFA003E6B4D /* LaunchScreen.storyboard */,
+				E9E1A4F721274EFA003E6B4D /* Info.plist */,
+			);
+			path = HappyStockTicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9E1A4E721274EFA003E6B4D /* HappyStockTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E1A4FA21274EFA003E6B4D /* Build configuration list for PBXNativeTarget "HappyStockTicker" */;
+			buildPhases = (
+				117F872733872CB925C35869 /* [CP] Check Pods Manifest.lock */,
+				E9E1A4E421274EFA003E6B4D /* Sources */,
+				E9E1A4E521274EFA003E6B4D /* Frameworks */,
+				E9E1A4E621274EFA003E6B4D /* Resources */,
+				8F8B1B9630EA07C5A69BA379 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyStockTicker;
+			productName = HappyStockTicker;
+			productReference = E9E1A4E821274EFA003E6B4D /* HappyStockTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9E1A4E021274EFA003E6B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dimitrios Papageorgiou";
+				TargetAttributes = {
+					E9E1A4E721274EFA003E6B4D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E9E1A4E321274EFA003E6B4D /* Build configuration list for PBXProject "HappyStockTicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9E1A4DF21274EFA003E6B4D;
+			productRefGroup = E9E1A4E921274EFA003E6B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E1A4E721274EFA003E6B4D /* HappyStockTicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E1A4E621274EFA003E6B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E1A4F621274EFA003E6B4D /* LaunchScreen.storyboard in Resources */,
+				E9E1A4F321274EFA003E6B4D /* Assets.xcassets in Resources */,
+				E9E1A4F121274EFA003E6B4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		117F872733872CB925C35869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyStockTicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8B1B9630EA07C5A69BA379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HappyStockTicker/Pods-HappyStockTicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyStockTicker/Pods-HappyStockTicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9E1A4E421274EFA003E6B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E1A4FE21274F51003E6B4D /* StockListScreen.swift in Sources */,
+				E9E1A4EC21274EFA003E6B4D /* AppDelegate.swift in Sources */,
+				E9E1A502212C0E05003E6B4D /* Stock.swift in Sources */,
+				E9E1A500212B9259003E6B4D /* StockCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9E1A4EF21274EFA003E6B4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E1A4F021274EFA003E6B4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9E1A4F421274EFA003E6B4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E1A4F521274EFA003E6B4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9E1A4F821274EFA003E6B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9E1A4F921274EFA003E6B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9E1A4FB21274EFA003E6B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DEFE6A59B1697CE6A47EFD /* Pods-HappyStockTicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFD9594T7R;
+				INFOPLIST_FILE = HappyStockTicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitriosmpapageorgiou.HappyStockTicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9E1A4FC21274EFA003E6B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF268CCBBAC3BDC3667E6BB9 /* Pods-HappyStockTicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFD9594T7R;
+				INFOPLIST_FILE = HappyStockTicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitriosmpapageorgiou.HappyStockTicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9E1A4E321274EFA003E6B4D /* Build configuration list for PBXProject "HappyStockTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E1A4F821274EFA003E6B4D /* Debug */,
+				E9E1A4F921274EFA003E6B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E1A4FA21274EFA003E6B4D /* Build configuration list for PBXNativeTarget "HappyStockTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E1A4FB21274EFA003E6B4D /* Debug */,
+				E9E1A4FC21274EFA003E6B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9E1A4E021274EFA003E6B4D /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_HappyStockTicker {
+  umbrella header "Pods-HappyStockTicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
