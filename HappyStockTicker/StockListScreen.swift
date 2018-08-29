@@ -25,7 +25,12 @@ class StockListScreen: UIViewController {
 
     
     @IBOutlet weak var tableView: UITableView!
+    
+    @IBAction func settingsButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToSettings", sender: self)
+    }
 
+    
     var stocks: [Stock] = []
 
     override func viewDidLoad() {

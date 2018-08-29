@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D03C4EF681288D247265C93 /* Pods_HappyStockTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408C87A2E706FC36677052BA /* Pods_HappyStockTicker.framework */; };
+		E9B2EA2021347B6100D4FC42 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B2EA1F21347B6100D4FC42 /* SettingsTableViewController.swift */; };
 		E9E1A4EC21274EFA003E6B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1A4EB21274EFA003E6B4D /* AppDelegate.swift */; };
 		E9E1A4F121274EFA003E6B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E1A4EF21274EFA003E6B4D /* Main.storyboard */; };
 		E9E1A4F321274EFA003E6B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E1A4F221274EFA003E6B4D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		408C87A2E706FC36677052BA /* Pods_HappyStockTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyStockTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEFE6A59B1697CE6A47EFD /* Pods-HappyStockTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStockTicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStockTicker/Pods-HappyStockTicker.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B2EA1F21347B6100D4FC42 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		E9E1A4E821274EFA003E6B4D /* HappyStockTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyStockTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E1A4EB21274EFA003E6B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E1A4F021274EFA003E6B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				E9E1A4EB21274EFA003E6B4D /* AppDelegate.swift */,
 				E9E1A4FD21274F51003E6B4D /* StockListScreen.swift */,
+				E9B2EA1F21347B6100D4FC42 /* SettingsTableViewController.swift */,
 				E9E1A4FF212B9259003E6B4D /* StockCell.swift */,
 				E9E1A501212C0E05003E6B4D /* Stock.swift */,
 				E9E1A4EF21274EFA003E6B4D /* Main.storyboard */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E1A4FE21274F51003E6B4D /* StockListScreen.swift in Sources */,
+				E9B2EA2021347B6100D4FC42 /* SettingsTableViewController.swift in Sources */,
 				E9E1A4EC21274EFA003E6B4D /* AppDelegate.swift in Sources */,
 				E9E1A502212C0E05003E6B4D /* Stock.swift in Sources */,
 				E9E1A500212B9259003E6B4D /* StockCell.swift in Sources */,
